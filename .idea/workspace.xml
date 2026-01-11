@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="feat: implementar sistema de registro de estudiantes utilizando POO" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Edison-Navarrete&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Edison-Navarrete/2526-POO-NAVARRETE-EDISON.git&quot;,
+    &quot;accountId&quot;: &quot;4c2b7b8e-5a37-4423-b774-46bbe1603fb1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="36XlTvRSKT4bD0dQ86szKp3t3dk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Comparación-Programación-Tradicional.executor": "Run",
+    "Python.EJEMPLO-TREN.executor": "Run",
+    "Python.Semana5RegistroDeEstudiantes.executor": "Run",
+    "Python.TareaSemana2.executor": "Run",
+    "Python.comparación-Programación-POO.executor": "Run",
+    "Python.ejemplo-Alquiler de un vehiculo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Edison Navarrete\PycharmProjects\2526-POO-NAVARRETE-EDISON\Parcial 01" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PY-252.28238.29" />
+        <option value="bundled-python-sdk-a101402ee41c-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28238.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="" />
+      <created>1765160811030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765160811030</updated>
+      <workItem from="1765160812402" duration="249000" />
+      <workItem from="1765161755756" duration="2429000" />
+      <workItem from="1765164642968" duration="647000" />
+      <workItem from="1765165335014" duration="3575000" />
+      <workItem from="1765695275353" duration="10504000" />
+      <workItem from="1766351454415" duration="6597000" />
+      <workItem from="1768108900526" duration="7793000" />
+      <workItem from="1768118157434" duration="411000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: añadir clases Personaje, Guerrero y Mago y función de combate&#10;chore: crear TareaSemana2.py con ejemplo de uso (Guts vs Vanessa)&#10;docs: añadir impresión de atributos y ejemplos de instancias&#10;refactor: organizar lógica de daño en métodos por clase y combate por turnos">
+      <option name="closed" value="true" />
+      <created>1765168117458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765168117458</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&#10;Mejora validación de entradas y manejo de brisa en POO clima&#10;&#10;- Valida entradas en `ingresar_datos` para evitar valores no numéricos.&#10;- Maneja opciones inválidas en `cambiar_brisa` (1-3) y notifica al usuario.&#10;- Mantiene cálculo de promedios y cierre de semana.">
+      <option name="closed" value="true" />
+      <created>1765742001561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765742001561</updated>
+    </task>
+    <task id="LOCAL-00003" summary="se añadió nuevos codigos de ejemplos de poo en usos reales usando metodo constructor objeto y persona y clases para complementar">
+      <option name="closed" value="true" />
+      <created>1766363257796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766363257796</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: implementar sistema de registro de estudiantes utilizando POO">
+      <option name="closed" value="true" />
+      <created>1768115708941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768115708941</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: implementar sistema de registro de estudiantes utilizando POO">
+      <option name="closed" value="true" />
+      <created>1768115947397</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768115947397</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: implementar sistema de registro de estudiantes utilizando POO">
+      <option name="closed" value="true" />
+      <created>1768116491249</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768116491249</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: añadir clases Personaje, Guerrero y Mago y función de combate&#10;chore: crear TareaSemana2.py con ejemplo de uso (Guts vs Vanessa)&#10;docs: añadir impresión de atributos y ejemplos de instancias&#10;refactor: organizar lógica de daño en métodos por clase y combate por turnos" />
+    <MESSAGE value="&#10;Mejora validación de entradas y manejo de brisa en POO clima&#10;&#10;- Valida entradas en `ingresar_datos` para evitar valores no numéricos.&#10;- Maneja opciones inválidas en `cambiar_brisa` (1-3) y notifica al usuario.&#10;- Mantiene cálculo de promedios y cierre de semana." />
+    <MESSAGE value="se añadió nuevos codigos de ejemplos de poo en usos reales usando metodo constructor objeto y persona y clases para complementar" />
+    <MESSAGE value="feat: implementar sistema de registro de estudiantes utilizando POO" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementar sistema de registro de estudiantes utilizando POO" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Comparación_Programación_Tradicional.coverage" NAME="Comparación-Programación-Tradicional Coverage Results" MODIFIED="1765741841635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 03" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$EJEMPLO_TREN.coverage" NAME="EJEMPLO-TREN Coverage Results" MODIFIED="1766362804497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 04/EjemplosMundoReal_POO" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$ejemplo_Alquiler_de_un_vehiculo.coverage" NAME="ejemplo-Alquiler de un vehiculo Coverage Results" MODIFIED="1766362181767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 04/EjemplosMundoReal_POO" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$comparación_Programación_POO.coverage" NAME="comparación-Programación-POO Coverage Results" MODIFIED="1765741831739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 03" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Semana5RegistroDeEstudiantes.coverage" NAME="Semana5RegistroDeEstudiantes Coverage Results" MODIFIED="1768115028853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 05" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$TareaSemana2.coverage" NAME="TareaSemana2 Coverage Results" MODIFIED="1768118398733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 02" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
