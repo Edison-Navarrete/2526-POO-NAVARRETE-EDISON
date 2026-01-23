@@ -52,7 +52,7 @@ class Bitacora:
             finally: self._cerrado = True
 
 
-# --------- DEMO RÁPIDA ---------
+# --------- DEMOSTRACION -EJEMPLO ---------
 if __name__ == "__main__":
     print("== with (cierre garantizado) ==")
     with Bitacora("bitacora_demo.csv") as b:
