@@ -1,12 +1,4 @@
 
-# bitacora_corta.py
-from pathlib import Path
-from datetime import datetime
-import csv, logging, gc
-
-logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
-log = logging.getLogger(__name__)
-
 class Bitacora:
     """Constructor abre/crea CSV; destructor cierra como respaldo; with garantiza cierre."""
     HEAD = ["fecha", "hora", "nombre", "tipo"]  # tipo: ENTRADA | SALIDA

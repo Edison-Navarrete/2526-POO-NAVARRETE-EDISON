@@ -1,19 +1,3 @@
-
-# tarea_constructores_destructores.py
-from __future__ import annotations
-from pathlib import Path
-from typing import Iterable
-import logging
-import socket
-import gc
-
-# -----------------------------------------------------------
-# Configuración de logging para ver a detalle el desarrollo
-# -----------------------------------------------------------
-logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
-log = logging.getLogger(__name__)
-
-
 class GestorArchivo:
     """
     Clase que DEMUESTRA el uso de:
