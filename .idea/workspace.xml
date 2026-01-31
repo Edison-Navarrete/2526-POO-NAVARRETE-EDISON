@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="feat: adaptacion con base Dashboard original añadir panel de tareas con funcionalidades CRUD y persistencia crear,listar,visualizar,marcar,eliminar,se guardan entareas,Json">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial 01/Semana 08/Dashboard.py" afterDir="false" />
-    </list>
+    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="feat: adaptacion con base Dashboard original añadir panel de tareas con funcionalidades CRUD y persistencia crear,listar,visualizar,marcar,eliminar,se guardan entareas,Json" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +114,7 @@
       <workItem from="1769850329732" duration="114000" />
       <workItem from="1769852524448" duration="116000" />
       <workItem from="1769853556624" duration="8883000" />
-      <workItem from="1769880829936" duration="856000" />
+      <workItem from="1769880829936" duration="1313000" />
     </task>
     <task id="LOCAL-00001" summary="feat: añadir clases Personaje, Guerrero y Mago y función de combate&#10;chore: crear TareaSemana2.py con ejemplo de uso (Guts vs Vanessa)&#10;docs: añadir impresión de atributos y ejemplos de instancias&#10;refactor: organizar lógica de daño en métodos por clase y combate por turnos">
       <option name="closed" value="true" />
@@ -231,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769876412549</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: adaptacion con base Dashboard original añadir panel de tareas con funcionalidades CRUD y persistencia crear,listar,visualizar,marcar,eliminar,se guardan entareas,Json">
+      <option name="closed" value="true" />
+      <created>1769881757046</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1769881757046</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +277,7 @@
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$RegistroDeEstudiantes.coverage" NAME="RegistroDeEstudiantes Coverage Results" MODIFIED="1768120694359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 05" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$ejemplo_Alquiler_de_un_vehiculo.coverage" NAME="ejemplo-Alquiler de un vehiculo Coverage Results" MODIFIED="1766362181767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 04/EjemplosMundoReal_POO" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$comparación_Programación_POO.coverage" NAME="comparación-Programación-POO Coverage Results" MODIFIED="1765741831739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 03" />
-    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Dashboard.coverage" NAME="Dashboard Coverage Results" MODIFIED="1769854729309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Dashboard.coverage" NAME="Dashboard Coverage Results" MODIFIED="1769881666986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 08" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$TareaSemana2.coverage" NAME="TareaSemana2 Coverage Results" MODIFIED="1768118398733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 02" />
   </component>
   <component name="github-copilot-workspace">
