@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Dashboard POO – Versión compacta y robusta (PARCIAL 01 / PARCIAL 02)
 --------------------------------------------------------------------
