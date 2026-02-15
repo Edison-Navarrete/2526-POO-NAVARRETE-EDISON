@@ -1,6 +1,5 @@
 # ======================================================
 #  GESTOR DE INVENTARIO (versión copleta todos los requerimientos en un solo codigo)
-#  Cumple literalmente:
 #   - Producto con constructor, getters y setters (properties)
 #   - Inventario con atributo "lista de productos"
 #   - Estructura de datos personalizada para gestionar la colección
