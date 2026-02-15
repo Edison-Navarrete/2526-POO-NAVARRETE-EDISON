@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="feat: implementar gestor de inventario con funcionalidades CRUD y menú interactivo---clase producto -inventarioy consola">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 02/TareaSemana2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 02/TareaSemana2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 03/Comparación-Programación-Tradicional.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 03/Comparación-Programación-Tradicional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 03/comparación-Programación-POO.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 03/comparación-Programación-POO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 04/EjemplosMundoReal_POO/EJEMPLO-TREN.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 04/EjemplosMundoReal_POO/EJEMPLO-TREN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 04/EjemplosMundoReal_POO/ejemplo-Alquiler de un vehiculo.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 04/EjemplosMundoReal_POO/ejemplo-Alquiler de un vehiculo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 05/RegistroDeEstudiantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 05/RegistroDeEstudiantes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 06/NominaEmpleados.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 06/NominaEmpleados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 07-Metodo_constructor-destructor/GESTORdeARCHIVOS_constructor y destructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 07-Metodo_constructor-destructor/GESTORdeARCHIVOS_constructor y destructor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 07-Metodo_constructor-destructor/Metodo_Construtor_Destructor_BITACORA-INGRESO.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 07-Metodo_constructor-destructor/Metodo_Construtor_Destructor_BITACORA-INGRESO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 08/Dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 08/Dashboard(borrador).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 08/Dashboard_backup.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 08/muestra _guía" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 01/Semana 08/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 08/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 02/Semana 10.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 10/Semana 10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 02/Semana 11.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/Semana 11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 02/Semana 12.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 12/Semana 12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 02/Semana 13.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 13/Semana 13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 02/Semana 14.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 14/Semana 14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 02/Semana 15.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 15/Semana 15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parcial 02/Semana 16.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 16/Semana 16.py" afterDir="false" />
-    </list>
+    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="feat: implementar gestor de inventario con funcionalidades CRUD y menú interactivo---clase producto -inventario y consola" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +124,7 @@
       <workItem from="1769916020350" duration="4570000" />
       <workItem from="1769921073475" duration="5467000" />
       <workItem from="1769927672498" duration="18000" />
-      <workItem from="1771121844088" duration="2928000" />
+      <workItem from="1771121844088" duration="3389000" />
     </task>
     <task id="LOCAL-00001" summary="feat: añadir clases Personaje, Guerrero y Mago y función de combate&#10;chore: crear TareaSemana2.py con ejemplo de uso (Guts vs Vanessa)&#10;docs: añadir impresión de atributos y ejemplos de instancias&#10;refactor: organizar lógica de daño en métodos por clase y combate por turnos">
       <option name="closed" value="true" />
@@ -299,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771125127956</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: implementar gestor de inventario con funcionalidades CRUD y menú interactivo---clase producto -inventario y consola">
+      <option name="closed" value="true" />
+      <created>1771126010652</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1771126010652</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +316,8 @@
     <MESSAGE value="feat: agregar Dashboard POO con navegación, gestor de archivos crear tareas y panel de tareas-apertura y visualizacion de codigo" />
     <MESSAGE value="feat: añadir archivos de tareas y bitácora, y realizar cambios en la configuración del espacio de trabajo visualizar codigo , crear tarea" />
     <MESSAGE value="feat: implementar gestor de inventario con funcionalidades CRUD y menú interactivo---clase producto -inventarioy consola" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementar gestor de inventario con funcionalidades CRUD y menú interactivo---clase producto -inventarioy consola" />
+    <MESSAGE value="feat: implementar gestor de inventario con funcionalidades CRUD y menú interactivo---clase producto -inventario y consola" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementar gestor de inventario con funcionalidades CRUD y menú interactivo---clase producto -inventario y consola" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Comparación_Programación_Tradicional.coverage" NAME="Comparación-Programación-Tradicional Coverage Results" MODIFIED="1765741841635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 03" />
