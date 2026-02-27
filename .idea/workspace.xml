@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment=" todos los codigos mejorados de acuerdo a la guia de la semana10- gestor de archivos-inventario mejorados">
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/actividad_inventario/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/actividad_inventario/aplicacion/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/actividad_inventario/aplicacion/inventario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/actividad_inventario/dominio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/actividad_inventario/dominio/producto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/actividad_inventario/infraestructura/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/actividad_inventario/infraestructura/almacenamiento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/actividad_inventario/interfaz/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/actividad_inventario/interfaz/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/data/inventario.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PARCIAL 02/Semana 11/Semana 11.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 11/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment=" todos los codigos mejorados de acuerdo a la guia de la semana10- gestor de archivos-inventario mejorados   &#10;feat(inventario-semana11): sistema avanzado de gestión de inventario con POO, colecciones y persistencia JSON&#10;&#10;- Estructura modular: actividad_inventario/{dominio,aplicacion,infraestructura,interfaz} + main.py y data/inventario.json&#10;- Clase Producto con properties y validaciones (ID, nombre, cantidad, precio)&#10;- Clase Inventario con dict[str,Producto] (búsqueda/actualización O(1)), set[str] para unicidad, list para listados y tuple para resumen&#10;- CRUD completo: agregar, eliminar por ID, actualizar cantidad y precio&#10;- Búsqueda por nombre (case-insensitive) y listado general&#10;- Persistencia en archivos: cargar/guardar JSON con escritura atómica (tmp + replace)&#10;- Interfaz de usuario: menú interactivo en consola (CLI)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +155,7 @@
       <workItem from="1772169526229" duration="6309000" />
       <workItem from="1772176978780" duration="229000" />
       <workItem from="1772177224978" duration="40000" />
-      <workItem from="1772177277590" duration="2610000" />
+      <workItem from="1772177277590" duration="3400000" />
     </task>
     <task id="LOCAL-00001" summary="feat: añadir clases Personaje, Guerrero y Mago y función de combate&#10;chore: crear TareaSemana2.py con ejemplo de uso (Guts vs Vanessa)&#10;docs: añadir impresión de atributos y ejemplos de instancias&#10;refactor: organizar lógica de daño en métodos por clase y combate por turnos">
       <option name="closed" value="true" />
@@ -365,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771796024088</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=" todos los codigos mejorados de acuerdo a la guia de la semana10- gestor de archivos-inventario mejorados   &#10;feat(inventario-semana11): sistema avanzado de gestión de inventario con POO, colecciones y persistencia JSON&#10;&#10;- Estructura modular: actividad_inventario/{dominio,aplicacion,infraestructura,interfaz} + main.py y data/inventario.json&#10;- Clase Producto con properties y validaciones (ID, nombre, cantidad, precio)&#10;- Clase Inventario con dict[str,Producto] (búsqueda/actualización O(1)), set[str] para unicidad, list para listados y tuple para resumen&#10;- CRUD completo: agregar, eliminar por ID, actualizar cantidad y precio&#10;- Búsqueda por nombre (case-insensitive) y listado general&#10;- Persistencia en archivos: cargar/guardar JSON con escritura atómica (tmp + replace)&#10;- Interfaz de usuario: menú interactivo en consola (CLI)">
+      <option name="closed" value="true" />
+      <created>1772180774758</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1772180774758</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +392,8 @@
     <MESSAGE value="feat: agregar archivos de tareas y bitácora, y actualizar gestor de inventario con nuevos requerimientos comentarios mejorados..." />
     <MESSAGE value=" todos los codigos mejorados de acuerdo a la guia de la semana10" />
     <MESSAGE value=" todos los codigos mejorados de acuerdo a la guia de la semana10- gestor de archivos-inventario mejorados" />
-    <option name="LAST_COMMIT_MESSAGE" value=" todos los codigos mejorados de acuerdo a la guia de la semana10- gestor de archivos-inventario mejorados" />
+    <MESSAGE value=" todos los codigos mejorados de acuerdo a la guia de la semana10- gestor de archivos-inventario mejorados   &#10;feat(inventario-semana11): sistema avanzado de gestión de inventario con POO, colecciones y persistencia JSON&#10;&#10;- Estructura modular: actividad_inventario/{dominio,aplicacion,infraestructura,interfaz} + main.py y data/inventario.json&#10;- Clase Producto con properties y validaciones (ID, nombre, cantidad, precio)&#10;- Clase Inventario con dict[str,Producto] (búsqueda/actualización O(1)), set[str] para unicidad, list para listados y tuple para resumen&#10;- CRUD completo: agregar, eliminar por ID, actualizar cantidad y precio&#10;- Búsqueda por nombre (case-insensitive) y listado general&#10;- Persistencia en archivos: cargar/guardar JSON con escritura atómica (tmp + replace)&#10;- Interfaz de usuario: menú interactivo en consola (CLI)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" todos los codigos mejorados de acuerdo a la guia de la semana10- gestor de archivos-inventario mejorados   &#10;feat(inventario-semana11): sistema avanzado de gestión de inventario con POO, colecciones y persistencia JSON&#10;&#10;- Estructura modular: actividad_inventario/{dominio,aplicacion,infraestructura,interfaz} + main.py y data/inventario.json&#10;- Clase Producto con properties y validaciones (ID, nombre, cantidad, precio)&#10;- Clase Inventario con dict[str,Producto] (búsqueda/actualización O(1)), set[str] para unicidad, list para listados y tuple para resumen&#10;- CRUD completo: agregar, eliminar por ID, actualizar cantidad y precio&#10;- Búsqueda por nombre (case-insensitive) y listado general&#10;- Persistencia en archivos: cargar/guardar JSON con escritura atómica (tmp + replace)&#10;- Interfaz de usuario: menú interactivo en consola (CLI)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Modificando_linea_especifica.coverage" NAME="Modificando linea especifica Coverage Results" MODIFIED="1771795652850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
