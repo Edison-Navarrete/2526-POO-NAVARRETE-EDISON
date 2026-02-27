@@ -1,0 +1,32 @@
+{
+  "1313": {
+    "id": "1313",
+    "nombre": "motocicleta",
+    "cantidad": 2,
+    "precio": 1500.0
+  },
+  "1212": {
+    "id": "1212",
+    "nombre": "casco para motociclista",
+    "cantidad": 20,
+    "precio": 65.0
+  },
+  "1414": {
+    "id": "1414",
+    "nombre": "maletero para motocicleta",
+    "cantidad": 15,
+    "precio": 60.0
+  },
+  "123": {
+    "id": "123",
+    "nombre": "cuatrimoto",
+    "cantidad": 4,
+    "precio": 1000.0
+  },
+  "952": {
+    "id": "952",
+    "nombre": "bicicletas profecionales",
+    "cantidad": 7,
+    "precio": 4500.0
+  }
+}
