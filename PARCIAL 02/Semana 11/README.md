@@ -9,7 +9,7 @@ Implementa un sistema de inventario con **POO**, uso de **colecciones** (listas,
   - `list[Producto]` para listados/ordenamientos,
   - `set[str]` para unicidad/etiquetas (opcional),
   - `tuple[...]` para retornos inmutables (resúmenes).
-- Persistir datos en **JSON** (lectura/escritura).
+- Persistir datos en **JSON** (lectura/escritura).#
 
 # interactuar con el metodo main (main.py)
 ## 🗂️ Estructura
