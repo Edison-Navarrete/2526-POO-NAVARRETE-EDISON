@@ -111,3 +111,4 @@ def ejecutar_menu(inv: Inventario) -> None:
                 print("⚠ Opción inválida. Elige entre 0 y 7.")
         except Exception as e:
             print("❌ Error:", e)
+            #

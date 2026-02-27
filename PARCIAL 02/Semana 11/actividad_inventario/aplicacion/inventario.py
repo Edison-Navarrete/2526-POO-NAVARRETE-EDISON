@@ -85,3 +85,4 @@ class Inventario:
                 # Si algún registro está mal formado, se ignora y se continúa.
                 continue
         return inv
+    #

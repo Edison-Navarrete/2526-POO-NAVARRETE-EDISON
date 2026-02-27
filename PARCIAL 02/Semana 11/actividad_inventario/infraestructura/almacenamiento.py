@@ -30,3 +30,4 @@ def guardar_json(path: Path, data: Dict[str, Any]) -> None:
         tmp.replace(path)  # Reemplazo atómico del archivo final
     except Exception as e:
         print(f"⚠ Error guardando JSON: {e}")
+        #

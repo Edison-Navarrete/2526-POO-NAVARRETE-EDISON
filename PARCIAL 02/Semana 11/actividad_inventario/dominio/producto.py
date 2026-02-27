@@ -85,3 +85,4 @@ class Producto:
             cantidad=data.get("cantidad", 0),
             precio=data.get("precio", 0.0),
         )
+    #
