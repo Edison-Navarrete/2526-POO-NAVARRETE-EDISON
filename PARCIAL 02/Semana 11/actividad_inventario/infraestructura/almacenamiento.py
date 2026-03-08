@@ -1,5 +1,5 @@
 # actividad_inventario/infraestructura/almacenamiento.py
-# Requisito: Almacenamiento en archivos (guardar/cargar inventario).
+# Requisito: Almacenamiento en archivos (guardar/cargar inventario.txt).
 # Decisión: Se usa JSON (legible) con escritura atómica (tmp + replace) para evitar corrupción.
 
 from __future__ import annotations
@@ -15,7 +15,7 @@ def cargar_json(path: Path) -> Dict[str, Any]:
         with path.open("r", encoding="utf-8") as f:
             return json.load(f)
     except json.JSONDecodeError:
-        print("⚠ Archivo JSON inválido o corrupto. Se inicia con inventario vacío.")
+        print("⚠ Archivo JSON inválido o corrupto. Se inicia con inventario.txt vacío.")
         return {}
     except Exception as e:
         print(f"⚠ Error cargando JSON: {e}")

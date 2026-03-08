@@ -1,4 +1,4 @@
-# actividad_inventario/aplicacion/inventario.py
+# actividad_inventario/aplicacion/inventario.txt.py
 # Requisito: Clase Inventario que use una colección adecuada para almacenar productos,
 #            con métodos para CRUD, búsqueda por nombre y listado.
 # Integración de Colecciones (explícito):

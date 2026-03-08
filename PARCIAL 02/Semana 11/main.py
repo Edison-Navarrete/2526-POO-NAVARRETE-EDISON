@@ -5,7 +5,7 @@ from actividad_inventario.infraestructura.almacenamiento import cargar_json, gua
 from actividad_inventario.interfaz.cli import ejecutar_menu
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_FILE = BASE_DIR / "data" / "inventario.json"
+DATA_FILE = BASE_DIR / "data" / "inventario.txt.json"
 
 def main():
     # Almacenamiento en archivos: lectura (deserialización)

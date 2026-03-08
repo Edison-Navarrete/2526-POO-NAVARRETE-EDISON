@@ -1,0 +1,5 @@
+1111;Python Básico;Guido V.;Programación
+2222;Cálculo I;James Stewart;Matemáticas
+3333;Algoritmos;S. Sedgewick;Informática
+4444;Fundamentos de Bases de Datos;Silberschatz;Informática
+5555;Estructuras de Datos;Mark A. Weiss;Informática

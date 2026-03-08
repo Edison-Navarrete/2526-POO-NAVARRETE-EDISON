@@ -3,7 +3,7 @@
 # Este módulo implementa:
 # 1) El menú principal que orquesta la ejecución de los otros cinco módulos
 #    cuyos nombres contienen espacios/paréntesis (se usan importlib por ruta).
-# 2) Un CRUD mínimo del inventario usando with open(...) sobre inventario.txt.
+# 2) Un CRUD mínimo del inventario.txt usando with open(...) sobre inventario.txt.txt.
 # -----------------------------------------------------------
 
 import importlib.util
@@ -11,7 +11,7 @@ from pathlib import Path
 import os
 
 BASE_DIR = Path(__file__).resolve().parent
-RUTA = BASE_DIR / "inventario.txt"
+RUTA = BASE_DIR / "inventario.txt.txt"
 CABECERA = "id,nombre,cantidad,precio\n"
 
 # Nombres de los otros scripts (exactos)
@@ -33,16 +33,16 @@ def cargar_modulo_por_ruta(nombre_modulo, ruta_archivo: Path):
 # -------------------- CRUD con with --------------------
 
 def asegurar_archivo():
-    # Garantiza que exista inventario.txt con cabecera.
+    # Garantiza que exista inventario.txt.txt con cabecera.
     if not RUTA.exists():
         try:
             with open(RUTA, "w") as f:
                 f.write(CABECERA)
-            print("INFO: inventario.txt no existia; se creo con cabecera.")
+            print("INFO: inventario.txt.txt no existia; se creo con cabecera.")
         except PermissionError:
-            print("ERROR: permiso denegado para crear inventario.txt.")
+            print("ERROR: permiso denegado para crear inventario.txt.txt.")
         except OSError as e:
-            print(f"ERROR: no fue posible crear inventario.txt: {e}")
+            print(f"ERROR: no fue posible crear inventario.txt.txt: {e}")
 
 def listar():
     try:
@@ -101,7 +101,7 @@ def eliminar():
     objetivo = input("ID a eliminar: ").strip()
     try:
         if not RUTA.exists():
-            print("No existe inventario.txt.")
+            print("No existe inventario.txt.txt.")
             return
         with open(RUTA, "r") as f:
             lineas = f.read().splitlines()

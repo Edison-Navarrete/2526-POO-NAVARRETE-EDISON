@@ -1,6 +1,6 @@
 # Modificando linea especifica.py
 # -----------------------------------------------------------
-# Este módulo modifica una línea específica del inventario por ID
+# Este módulo modifica una línea específica del inventario.txt por ID
 # (cantidad y precio) y reescribe el archivo. Incluye run() para
 # integrarse con el menú principal.
 # -----------------------------------------------------------
@@ -8,7 +8,7 @@
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-RUTA = BASE_DIR / "inventario.txt"
+RUTA = BASE_DIR / "inventario.txt.txt"
 
 def run():
     objetivo = input("ID a actualizar: ").strip()
@@ -24,7 +24,7 @@ def run():
 
     try:
         if not RUTA.exists():
-            print("No existe inventario.txt.")
+            print("No existe inventario.txt.txt.")
             return
 
         with open(RUTA, "r") as f:

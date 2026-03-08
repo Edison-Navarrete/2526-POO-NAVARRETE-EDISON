@@ -134,7 +134,7 @@ class EstructuraProductos:
 
 
 # --- Clase Inventario ---
-# Aquí agrupo las operaciones de negocio del inventario. Internamente me apoyo
+# Aquí agrupo las operaciones de negocio del inventario.txt. Internamente me apoyo
 # en mi estructura personalizada. Para cumplir literalmente la consigna
 # “Atributos: Una lista de productos”, expongo una propiedad que devuelve
 # SIEMPRE una lista (copia) de los productos.
