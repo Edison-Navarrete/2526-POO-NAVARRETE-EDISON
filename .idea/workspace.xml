@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="APLICACION (GUI)PARA INTERACTUAR CON DATOS  etiquetas (labels), botones, campos de texto, y una lista o tabla para mostrar datos.">
-      <change afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 14/AgendaPersonal/agenda_personal.py" afterDir="false" />
+    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="feat: agregar aplicación de Agenda Personal con selector de fecha y gestión de eventos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PARCIAL 02/Semana 14/Semana 14.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 14/AgendaPersonal/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PARCIAL 02/Semana 15/Semana 15.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 15/Aplicación GUI de Lista de Tareas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,7 @@
     "Python.Abrir y cerrar archivo (Metodo with).executor": "Run",
     "Python.Abrir y cerrar archivo metodo simple-manual.executor": "Run",
     "Python.Abrir y cerrar archivos metodo(with).executor": "Run",
+    "Python.Aplicación GUI de Lista de Tareas.executor": "Run",
     "Python.Comparación-Programación-Tradicional.executor": "Run",
     "Python.Dashboard.executor": "Run",
     "Python.EJEMPLO-TREN.executor": "Run",
@@ -84,6 +84,7 @@
     "Python.Semana5RegistroDeEstudiantes.executor": "Run",
     "Python.TareaSemana2.executor": "Run",
     "Python.Try y Except.executor": "Run",
+    "Python.agenda_personal.executor": "Run",
     "Python.borrador.executor": "Run",
     "Python.comparación-Programación-POO.executor": "Run",
     "Python.ejemplo-Alquiler de un vehiculo.executor": "Run",
@@ -124,7 +125,30 @@
       <recent name="C:\Users\Edison Navarrete\PycharmProjects\2526-POO-NAVARRETE-EDISON\PARCIAL 02\Semana 14" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.agenda_personal">
+  <component name="RunManager" selected="Python.Aplicación GUI de Lista de Tareas">
+    <configuration name="Aplicación GUI de Lista de Tareas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2526-POO-NAVARRETE-EDISON" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PARCIAL 02/Semana 15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PARCIAL 02/Semana 15/Aplicación GUI de Lista de Tareas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="agenda_personal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2526-POO-NAVARRETE-EDISON" />
       <option name="ENV_FILES" value="" />
@@ -219,6 +243,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Aplicación GUI de Lista de Tareas" />
         <item itemvalue="Python.agenda_personal" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
@@ -267,7 +292,8 @@
       <workItem from="1772907967913" duration="5845000" />
       <workItem from="1773002512838" duration="4339000" />
       <workItem from="1773623022577" duration="5820000" />
-      <workItem from="1774198726690" duration="14131000" />
+      <workItem from="1774198726690" duration="14677000" />
+      <workItem from="1774585599242" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="feat: añadir clases Personaje, Guerrero y Mago y función de combate&#10;chore: crear TareaSemana2.py con ejemplo de uso (Guts vs Vanessa)&#10;docs: añadir impresión de atributos y ejemplos de instancias&#10;refactor: organizar lógica de daño en métodos por clase y combate por turnos">
       <option name="closed" value="true" />
@@ -533,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773630640947</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="feat: agregar aplicación de Agenda Personal con selector de fecha y gestión de eventos">
+      <option name="closed" value="true" />
+      <created>1774225830537</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1774225830537</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,12 +608,13 @@
     <MESSAGE value="gestor de archivos-inventario mejorados - interactuar mediante (main.py)  &#10;feat(inventario-semana11): sistema avanzado de gestión de inventario con POO, colecciones y persistencia JSON&#10;&#10;- Estructura modular: actividad_inventario/{dominio,aplicacion,infraestructura,interfaz} + main.py y data/inventario.json&#10;- Clase Producto con properties y validaciones (ID, nombre, cantidad, precio)&#10;- Clase Inventario con dict[str,Producto] (búsqueda/actualización O(1)), set[str] para unicidad, list para listados y tuple para resumen&#10;- CRUD completo: agregar, eliminar por ID, actualizar cantidad y precio&#10;- Búsqueda por nombre (case-insensitive) y listado general&#10;- Persistencia en archivos: cargar/guardar JSON con escritura atómica (tmp + replace)&#10;- Interfaz de usuario: menú interactivo en consola (CLI)" />
     <MESSAGE value="gestor de archivos biblioteca-inventario mejorados - corrección de nombres de archivo y mejoras en la gestión de inventario" />
     <MESSAGE value="APLICACION (GUI)PARA INTERACTUAR CON DATOS  etiquetas (labels), botones, campos de texto, y una lista o tabla para mostrar datos." />
-    <option name="LAST_COMMIT_MESSAGE" value="APLICACION (GUI)PARA INTERACTUAR CON DATOS  etiquetas (labels), botones, campos de texto, y una lista o tabla para mostrar datos." />
+    <MESSAGE value="feat: agregar aplicación de Agenda Personal con selector de fecha y gestión de eventos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: agregar aplicación de Agenda Personal con selector de fecha y gestión de eventos" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Modificando_linea_especifica.coverage" NAME="Modificando linea especifica Coverage Results" MODIFIED="1771795652850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
-    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$estructura_de_productos.coverage" NAME="estructura de productos Coverage Results" MODIFIED="1771791355360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Try_y_Except.coverage" NAME="Try y Except Coverage Results" MODIFIED="1771795665152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$estructura_de_productos.coverage" NAME="estructura de productos Coverage Results" MODIFIED="1771791355360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Else_y_Finally__FileNotFound_.coverage" NAME="Else y Finally (FileNotFound) Coverage Results" MODIFIED="1771795618225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Abrir_y_cerrar_archivo_metodo_simple_manual.coverage" NAME="Abrir y cerrar archivo metodo simple-manual Coverage Results" MODIFIED="1771724720982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$inventario_manejo_de_archivos_y_ecepciones.coverage" NAME="inventario-manejo de archivos y ecepciones Coverage Results" MODIFIED="1771791443486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
@@ -595,8 +630,10 @@
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$main.coverage" NAME="main Coverage Results" MODIFIED="1773626691290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 12" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$practico_Experimental2_Dashoard_.coverage" NAME="practico Experimental2(Dashoard) Coverage Results" MODIFIED="1769924767758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Dashboard.coverage" NAME="Dashboard Coverage Results" MODIFIED="1769921568460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 01/Semana 08" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$agenda_personal.coverage" NAME="agenda_personal Coverage Results" MODIFIED="1774225564355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 14/AgendaPersonal" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Abrir_y_cerrar_archivos_metodo_with_.coverage" NAME="Abrir y cerrar archivos metodo(with) Coverage Results" MODIFIED="1771727975901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Comparación_Programación_Tradicional.coverage" NAME="Comparación-Programación-Tradicional Coverage Results" MODIFIED="1765741841635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 03" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Aplicación_GUI_de_Lista_de_Tareas.coverage" NAME="Aplicación GUI de Lista de Tareas Coverage Results" MODIFIED="1774587037576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 15" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$ui.coverage" NAME="ui Coverage Results" MODIFIED="1771791536562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$NNN.coverage" NAME="NNN Coverage Results" MODIFIED="1768796419034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 07" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$NominaEmpleados.coverage" NAME="NominaEmpleados Coverage Results" MODIFIED="1768796576818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 06" />
