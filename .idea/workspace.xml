@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="feat: agregar aplicación de Agenda Personal con selector de fecha y gestión de eventos">
+    <list default="true" id="730eb30a-8ff4-419b-9ac3-5b0a1c4f6c7e" name="Changes" comment="feat: implementar aplicación GUI de Lista de Tareas con gestión de tareas">
+      <change afterPath="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas/componentes_contenedores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas/conceptos_eventos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas/controlador_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas/interfaces_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas/manejadores_eventos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas/tareas_datos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PARCIAL 02/Semana 15/Semana 15.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/Semana 15/Aplicación GUI de Lista de Tareas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PARCIAL 01/Semana 08/Dashboard(borrador).py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 01/Semana 08/Dashboard(borrador).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PARCIAL 02/Semana 16/actividad1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/prsctico-1/actividad1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PARCIAL 02/Semana 16/actividad2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/prsctico-1/actividad2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PARCIAL 02/Semana 16/actividad3.py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/prsctico-1/actividad3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/prsctico-1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practico Experimental2(Dashoard).py" beforeDir="false" afterPath="$PROJECT_DIR$/PARCIAL 02/prsctico-1/practico Experimental2(Dashoard).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +61,9 @@
     &quot;accountId&quot;: &quot;4c2b7b8e-5a37-4423-b774-46bbe1603fb1&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -95,6 +111,7 @@
     "Python.inventario.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
     "Python.main-gestor de archivos.executor": "Run",
     "Python.main.executor": "Run",
     "Python.practico Experimental2(Dashoard).executor": "Run",
@@ -118,14 +135,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Edison Navarrete\PycharmProjects\2526-POO-NAVARRETE-EDISON\PARCIAL 02\prsctico-1" />
       <recent name="C:\Users\Edison Navarrete\PycharmProjects\2526-POO-NAVARRETE-EDISON" />
       <recent name="C:\Users\Edison Navarrete\PycharmProjects\2526-POO-NAVARRETE-EDISON\PARCIAL 01\Semana 08" />
       <recent name="C:\Users\Edison Navarrete\PycharmProjects\2526-POO-NAVARRETE-EDISON\PARCIAL 02\Semana 16" />
       <recent name="C:\Users\Edison Navarrete\PycharmProjects\2526-POO-NAVARRETE-EDISON\PARCIAL 02\Semana 15" />
-      <recent name="C:\Users\Edison Navarrete\PycharmProjects\2526-POO-NAVARRETE-EDISON\PARCIAL 02\Semana 14" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Aplicación GUI de Lista de Tareas">
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="Aplicación GUI de Lista de Tareas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2526-POO-NAVARRETE-EDISON" />
       <option name="ENV_FILES" value="" />
@@ -218,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2526-POO-NAVARRETE-EDISON" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,12 +244,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PARCIAL 02/Semana 12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PARCIAL 02/Semana 12/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.Aplicación GUI de Lista de Tareas" />
         <item itemvalue="Python.agenda_personal" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +310,8 @@
       <workItem from="1773002512838" duration="4339000" />
       <workItem from="1773623022577" duration="5820000" />
       <workItem from="1774198726690" duration="14677000" />
-      <workItem from="1774585599242" duration="1660000" />
+      <workItem from="1774585599242" duration="1918000" />
+      <workItem from="1774902455420" duration="12738000" />
     </task>
     <task id="LOCAL-00001" summary="feat: añadir clases Personaje, Guerrero y Mago y función de combate&#10;chore: crear TareaSemana2.py con ejemplo de uso (Guts vs Vanessa)&#10;docs: añadir impresión de atributos y ejemplos de instancias&#10;refactor: organizar lógica de daño en métodos por clase y combate por turnos">
       <option name="closed" value="true" />
@@ -567,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774225830537</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="feat: implementar aplicación GUI de Lista de Tareas con gestión de tareas">
+      <option name="closed" value="true" />
+      <created>1774589790108</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1774589790108</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,12 +635,13 @@
     <MESSAGE value="gestor de archivos biblioteca-inventario mejorados - corrección de nombres de archivo y mejoras en la gestión de inventario" />
     <MESSAGE value="APLICACION (GUI)PARA INTERACTUAR CON DATOS  etiquetas (labels), botones, campos de texto, y una lista o tabla para mostrar datos." />
     <MESSAGE value="feat: agregar aplicación de Agenda Personal con selector de fecha y gestión de eventos" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: agregar aplicación de Agenda Personal con selector de fecha y gestión de eventos" />
+    <MESSAGE value="feat: implementar aplicación GUI de Lista de Tareas con gestión de tareas" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementar aplicación GUI de Lista de Tareas con gestión de tareas" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Modificando_linea_especifica.coverage" NAME="Modificando linea especifica Coverage Results" MODIFIED="1771795652850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
-    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Try_y_Except.coverage" NAME="Try y Except Coverage Results" MODIFIED="1771795665152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$estructura_de_productos.coverage" NAME="estructura de productos Coverage Results" MODIFIED="1771791355360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Try_y_Except.coverage" NAME="Try y Except Coverage Results" MODIFIED="1771795665152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Else_y_Finally__FileNotFound_.coverage" NAME="Else y Finally (FileNotFound) Coverage Results" MODIFIED="1771795618225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Abrir_y_cerrar_archivo_metodo_simple_manual.coverage" NAME="Abrir y cerrar archivo metodo simple-manual Coverage Results" MODIFIED="1771724720982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$inventario_manejo_de_archivos_y_ecepciones.coverage" NAME="inventario-manejo de archivos y ecepciones Coverage Results" MODIFIED="1771791443486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
@@ -645,6 +672,7 @@
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$GESTORdeARCHIVOS_constructor_y_destructor.coverage" NAME="GESTORdeARCHIVOS_constructor y destructor Coverage Results" MODIFIED="1769163363414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 07-Metodo_constructor-destructor" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$borrador.coverage" NAME="borrador Coverage Results" MODIFIED="1771724906108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Semana_09.coverage" NAME="Semana 09 Coverage Results" MODIFIED="1769924469132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 09" />
+    <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1775187121891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/semana 16/gestor_tareas" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$ejemplo_Alquiler_de_un_vehiculo.coverage" NAME="ejemplo-Alquiler de un vehiculo Coverage Results" MODIFIED="1766362181767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 04/EjemplosMundoReal_POO" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$comparación_Programación_POO.coverage" NAME="comparación-Programación-POO Coverage Results" MODIFIED="1765741831739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Parcial 01/Semana 03" />
     <SUITE FILE_PATH="coverage/2526_POO_NAVARRETE_EDISON$Entradas.coverage" NAME="Entradas Coverage Results" MODIFIED="1771791486745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PARCIAL 02/Semana 10" />
